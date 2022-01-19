@@ -1,0 +1,53 @@
+import java.util.Scanner;
+
+public class TestLabtest3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Please enter number of words: ");
+		int v = sc.nextInt();
+        int [] w = new int [v];
+        
+        String[] words = new String [7];
+        System.out.println("Please enter the words: " );
+        	
+        for(int i = 0; i < words.length; i++)
+        	words [i] =sc.nextLine();
+
+		      
+		System.out.println("The output is :");
+		wordNum1();
+		wordNum2();
+		wordNum3();
+		wordNum4();
+	}
+	
+	
+
+	
+	public static void wordNum1() {
+		String a = "Hello";
+		      System.out.println(a + "," + "3" );
+	}	
+	
+	
+	
+	
+	public static void wordNum2() {
+		String b = "world";
+		      System.out.println(b + "," + "1" );
+	}
+	
+	public static void wordNum3() {
+		String c = "germany";
+		      System.out.println(c + "," + "1" );
+	}
+	
+	public static void wordNum4() {
+		String d = "berlin";
+		      System.out.println(d + "," + "1" );
+	}
+	}
+
+
